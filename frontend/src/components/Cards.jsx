@@ -17,7 +17,7 @@ const projects = [
     title: "Portfolio Website",
     description: "Personal portfolio built with React showcasing my projects and skills.",
     imageUrl: "https://via.placeholder.com/600x400", // Replace with real image
-    link: "https://yourportfolio.com"
+    link: "https://arpandev-nine.vercel.app/"
   }
 ];
 

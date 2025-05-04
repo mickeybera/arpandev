@@ -6,8 +6,8 @@ import {
   FaEnvelope,
   FaFacebook,
   FaInstagram,
-   // Use FaTwitter for X.com (formerly Twitter)
-} from 'react-icons/fa'; // FaTwitter is available in react-icons/fa
+  
+} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
 
         {/* Logo or Name */}
         <div className="text-xl font-semibold tracking-wide">
-          © {new Date().getFullYear()} <span className="text-white/90">Your Name</span>
+          © {new Date().getFullYear()} <span className="text-white/90">Arpan Bera</span>
         </div>
 
         {/* Navigation Links */}
