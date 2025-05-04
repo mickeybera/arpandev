@@ -15,7 +15,7 @@ function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      await axios.post("https://arpandev.onrender.com", formData);
+      await axios.post("https://portfolio-main-k24r.onrender.com/send-email", formData);
       toast.success("Your message has been sent!");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
@@ -28,7 +28,7 @@ function Contact() {
 
   return (
     <div className="min-h-screen p-6">
-      <h1 className="text-5xl font-bold text-center mb-12 bg-gradient-to-b from-white to-neutral-400 text-transparent bg-clip-text">
+      <h1 className="mt-12 text-5xl font-bold text-center mb-12 bg-gradient-to-b from-white to-neutral-400 text-transparent bg-clip-text">
         Get in Touch
       </h1>
 

@@ -4,6 +4,9 @@ import {
   FaNodeJs,
   FaDatabase,
   FaPython,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
 } from 'react-icons/fa';
 
 const About = () => {
@@ -87,6 +90,34 @@ const About = () => {
           <div className="flex flex-col items-center transform transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/40 hover:cursor-pointer">
             <FaPython className="text-6xl text-yellow-300 mb-2" />
             <p className="text-white/80">Python</p>
+          </div>
+
+          {/* HTML5 */}
+          <div className="flex flex-col items-center transform transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-orange-400/40 hover:cursor-pointer">
+            <FaHtml5 className="text-6xl text-orange-500 mb-2" />
+            <p className="text-white/80">HTML5</p>
+          </div>
+
+          {/* CSS3 */}
+          <div className="flex flex-col items-center transform transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-blue-400/40 hover:cursor-pointer">
+            <FaCss3Alt className="text-6xl text-blue-500 mb-2" />
+            <p className="text-white/80">CSS3</p>
+          </div>
+
+          {/* JavaScript */}
+          <div className="flex flex-col items-center transform transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-yellow-300/40 hover:cursor-pointer">
+            <FaJsSquare className="text-6xl text-yellow-300 mb-2" />
+            <p className="text-white/80">JavaScript</p>
+          </div>
+
+          {/* Express.js */}
+          <div className="flex flex-col items-center transform transition duration-300 hover:scale-110 hover:shadow-lg hover:shadow-gray-400/40 hover:cursor-pointer">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+              alt="Express.js"
+              className="w-16 h-16 object-contain mb-2"
+            />
+            <p className="text-white/80">Express.js</p>
           </div>
         </div>
       </div>
