@@ -4,20 +4,16 @@ const projects = [
   {
     title: "E-Commerce Website",
     description: "A full-featured e-commerce platform with secure payment gateway integration.",
-    imageUrl: "https://via.placeholder.com/600x400", // Replace with real image
-    link: "https://foreverbuy.in"
-  },
-  {
-    title: "Chat App (MERN + Socket.io)",
-    description: "Real-time chat application using MongoDB, Express, React, Node.js, and Socket.io.",
-    imageUrl: "https://via.placeholder.com/600x400", // Replace with real image
-    link: "https://yourchatapp.com"
+    imageUrl: "https://images-platform.99static.com//ZUU0DJkgfiPJzVKTgSEaii6H9G8=/5x0:1705x1700/fit-in/590x590/99designs-contests-attachments/111/111213/attachment_111213383",
+    link: "https://foreverbuy.in",
+    sourceCode: "https://github.com/yourusername/ecommerce-site" // Replace with actual repo
   },
   {
     title: "Portfolio Website",
     description: "Personal portfolio built with React showcasing my projects and skills.",
-    imageUrl: "https://via.placeholder.com/600x400", // Replace with real image
-    link: "https://arpandev-nine.vercel.app/"
+    imageUrl: "https://via.placeholder.com/600x400",
+    link: "https://arpandev-nine.vercel.app/",
+    sourceCode: "https://github.com/yourusername/portfolio" // Replace with actual repo
   }
 ];
 
@@ -37,14 +33,24 @@ const Cards = () => {
           <div className="p-5">
             <h3 className="text-xl font-bold mb-2 text-white">{project.title}</h3>
             <p className="text-white/80 text-sm mb-4">{project.description}</p>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-white/20 text-white px-4 py-2 rounded hover:bg-white/30 transition"
-            >
-              View Project
-            </a>
+            <div className="flex gap-2">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white/20 text-white px-4 py-2 rounded hover:bg-white/30 transition"
+              >
+                View Project
+              </a>
+              <a
+                href={project.sourceCode}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white/20 text-white px-4 py-2 rounded hover:bg-white/30 transition"
+              >
+                View Source Code
+              </a>
+            </div>
           </div>
         </div>
       ))}
@@ -53,3 +59,4 @@ const Cards = () => {
 };
 
 export default Cards;
+
