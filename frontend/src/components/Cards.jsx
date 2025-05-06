@@ -1,17 +1,19 @@
 import React from 'react';
+import phto1 from '/p1.png'
+import phto2 from '/p2.png'
 
 const projects = [
   {
     title: "E-Commerce Website",
     description: "A full-featured e-commerce platform with secure payment gateway integration.",
-    imageUrl: "https://images-platform.99static.com//ZUU0DJkgfiPJzVKTgSEaii6H9G8=/5x0:1705x1700/fit-in/590x590/99designs-contests-attachments/111/111213/attachment_111213383",
+    imageUrl: phto2,
     link: "https://foreverbuy.in",
     sourceCode: "https://github.com/yourusername/ecommerce-site" // Replace with actual repo
   },
   {
     title: "Portfolio Website",
     description: "Personal portfolio built with React showcasing my projects and skills.",
-    imageUrl: "https://via.placeholder.com/600x400",
+    imageUrl: phto1,
     link: "https://arpandev-nine.vercel.app/",
     sourceCode: "https://github.com/yourusername/portfolio" // Replace with actual repo
   }
